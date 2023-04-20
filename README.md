@@ -2,6 +2,10 @@
 
 View all the items that we have to offer!
 
+## Install
+1. Download Code
+2. Hit "Go Live" if you have VSCode extension or 
+
 ## Features
 
 ### Best Seller of the week
