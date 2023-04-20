@@ -4,7 +4,7 @@ View all the items that we have to offer!
 
 ## Install
 1. Download Code
-2. Hit "Go Live" if you have VSCode extension or 
+2. Open with Live Server
 
 ## Features
 
