@@ -81,7 +81,7 @@ button.slick-next:before {
 /* Responsive Design */
 @media only screen and (max-width: 390px) {
   #seller_title{
-    font-size: 23px;
+    font-size: 20px;
   }
 
   #seller_of_week_img{
