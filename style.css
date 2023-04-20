@@ -13,7 +13,6 @@
   padding:10px;
 } 
 
-/* seller of the week style */
  #seller_of_the_week{
    background-color: white;
    margin: auto;
@@ -30,6 +29,7 @@
   top: 1.5em;
   padding: 6px;
   font-size: 30px;
+  font-weight: 900;
 }
 
 #other_products_text{
@@ -37,28 +37,10 @@
   color: red;
 }
 
-.slick-arrow {
-  color: red;
-}
-
-/* #seller_of_week_img{
-  width: 500px
-}  */
-
-
-/* #other_products_you_may_like{
-    font-size: 20px;
-  } */
-/* .slick-track{
-
-} */
-/* Most Viewd */
-#most_viewed{
-  position: absolute;
-  z-index: 7;
+#most_viewed {
   background: red;
-  left: 2.7%;
-  padding: 0px 37px;
+  color: white;
+  text-align: center;
 }
 
 .item_name{
@@ -71,7 +53,6 @@
   text-align: center;
 }
 
-
 div#carousel{
   width: 100%;
   height: 100px;  
@@ -79,9 +60,7 @@ div#carousel{
 
  #item_image{
   width: 100%;
-  /* height: 100%; */
   height: auto;
-
 } 
 
 button.slick-prev:before {
@@ -94,12 +73,12 @@ button.slick-next:before {
   font-size: 30px;
 }
 
- .slick-dots {
+.slick-dots {
     white-space: nowrap;
     overflow: hidden;
-  }
+}
 
-
+/* Responsive Design */
 @media only screen and (max-width: 390px) {
   #seller_title{
     font-size: 23px;
@@ -125,89 +104,4 @@ button.slick-next:before {
     display: none;
   }
 
-  #most_viewed {
-    position: absolute;
-    background: red;
-    bottom: 50%;
-    left: 2.2%;
-    padding: 0px;
-  }
-
 }
- /* #most_viewed{
-  background-color: yellow;
-  color: black;
-  z-index: 1;
-  text-align: center;
-  position: relative;
-  top: 3em;
-  left: 2em;
-  width: 21%;
-  font-size: 10px;
-}  */
-
-/* Carousel Style */
-
-
-
-/* #item_image{
-  width: 100px 
-} */
-
-
-/* .slick-carousel{
-  max-width: 1280px;
-  margin: 15px auto;
-  padding: 20px 0;
-}  */
-
-/* .slick-slide{
-  color: #000;
-  padding: 50px 0;
-  font-family: lato;
-  text-align: center;
-  pointer-events: none;
-}  */
-
-/* .slick-arrow{
-  color: red;
-} */
-
-
-/* #item_image{ 
-  width: 100%;
-} */
-
-/* .slick-dots{
- bottom: 25em;
-} */
-
-
-/* @media only screen and (max-width: 390px) {
-  #container{
-    display: flex;
-    flex-direction: column;
-  }
-
-  #seller_of_the_week_container{
-    
-  }
-
-  #seller_of_week_img{
-    width: 200px;
-  }
-
-  #seller_title{
-    background-color: red;
-    color: white;
-    z-index: 1;
-    text-align: center;
-    width: 75%;
-    margin: auto;
-    font-size: 14px;
-  }
-
-  #other_products_you_may_like{
-    font-size: 14px;
-  }
-} */
